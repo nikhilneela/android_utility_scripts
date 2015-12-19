@@ -1,1 +1,2 @@
 # android_utility_scripts
+This is a simple repository which helps android developers to rename, copy, or delete asset files. Android assets are generally given in different densities like ldpi, mdpi, hdpi, xhdpi, xxhdpi. It often becomes diificult o place these images into the project's res folder. These bunch of scripts allow users to copy/rename/delete asset files. Feel free to enhance these if you feel there is a scope for enhancement.
