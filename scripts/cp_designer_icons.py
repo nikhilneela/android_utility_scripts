@@ -40,7 +40,7 @@ def copy_from_design_folders(srcPath, desPath):
 			dir = x[0]
 			index = designDirectories.index(os.path.basename(dir))
 			for file in files(dir):
-				copyFile(os.path.basename(file), dir, os.path.join(desPath, designDirectories[index]))
+				copyFile(os.path.basename(file), dir, os.path.join(desPath, designDirectories[index]), False)
 	
 def copy_from_folder(srcPath, desPath):
 	icons = [file for file in os.listdir(srcPath) if file.endswith('.png')]
